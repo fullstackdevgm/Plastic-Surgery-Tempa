@@ -1,0 +1,71 @@
+.rpb_carousel_default {
+	position: relative;
+}
+.rpb_carousel_default img {
+	border: 1px solid #ccc;
+	padding: 9px;
+	background-color: white;
+	display: block;
+	float: left;
+}
+a.rpb_carousel_default img {
+	border: 1px solid #ccc;
+	padding: 9px;
+	background-color: white;
+	margin: 7px;
+	display: block;
+	float: left;
+}
+/*a.rpb_carousel_default_prev, a.rpb_carousel_default_next {
+	width: 30px;
+	height: 30px;
+	display: block;
+	position: absolute;
+}*/
+.rpb_carousel_default_prev, .rpb_carousel_default_next {
+	margin: 0px;
+}
+/*a.rpb_carousel_default_prev {
+	left: 20px;
+	background-position: 0 0;
+}*/
+/*a.rpb_carousel_default_prev:hover {
+	background-position: 0 -50px;
+}*/
+/*a.rpb_carousel_default_next {
+	right: 15px;
+	width: 30px;
+}
+a.rpb_carousel_default_next:hover {
+	background-position: -50px -50px;
+}*/
+a.rpb_carousel_default_prev span, a.rpb_carousel_default_next span {
+	display: none;
+}
+.rpb_carousel_default_pag {
+	text-align: center;
+}
+.rpb_carousel_default_pag a {
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.rpb_carousel_default_pag a.selected {
+	background-position: -25px -300px;
+	cursor: default;
+}
+.rpb_carousel_default_pag a span {
+	display: none;
+}
+.rpb_carousel_default a img {
+	margin: 0;
+}
+a {
+color: #218BC4;
+-webkit-transition: none;
+-moz-transition: none;
+-o-transition: none;
+-ms-transition: none;
+transition: none;
+}

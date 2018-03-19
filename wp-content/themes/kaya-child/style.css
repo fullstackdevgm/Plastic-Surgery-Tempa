@@ -1,0 +1,165 @@
+/*
+Theme Name: Kaya Child
+Template: kaya
+Theme URI: https://www.anphira.com/kaya-wordpress-theme/
+Author: Anphira, LLC
+Author URI: https://www.anphira.com/
+Description: Kaya is a flexible theme to build fabulous & functional websites. With a focus on being lightweight and fast, Kaya allows you to quickly build & customize your site with a wide array of color, font, header, footer and width options. It's ready to work with your page builder and has built-in support for Visual Composer. You can view the setup instructions by going to the Customizer and selecting "Need Setup Help?".
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kaya
+Tags: one-column, two-columns, right-sidebar, left-sidebar, flexible-header, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, sticky-post, theme-options, translation-ready, custom-background, post-formats, threaded-comments, full-width-template
+
+This theme, like WordPress, is licensed under the GPL.
+
+Kaya is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/**
+ * General
+**/
+@font-face {
+    font-family: billabong;
+    src: url(/fonts/billabong.ttf);
+}
+a.mega-menu-link {
+    font-family: billabong !important;
+}
+h1, h2, h3 {
+    font-family: billabong !important;
+    font-weight: 400 !important;
+}
+.greentxt h2, .greentxt h3, .greentxt {
+	color: #509236;
+}
+whitetxt p, .whitetxt, .whitetxt label {
+    color: #fff !important;
+}
+a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-flat.vc_btn3-color-success {
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+.centerit h2, .centerit, .centerit h3 {
+	text-align: center;
+}
+input#gform_submit_button_1 {
+    background: #6ab165;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+/**
+ * Header
+**/
+.site-branding {
+    display: none;
+}
+#masthead .container {
+    padding: 0px !important;
+}
+.navcont {
+    width: 1250px;
+    margin: 0 auto;
+}
+.phonecont p {
+    color: #fff;
+}
+i.fa.fa-phone {
+    display: inline;
+    color: #509236;
+}
+.phonecont i.fa.fa-phone {
+    display: inline;
+    color: #509236;
+    font-size: 23px;
+    padding-left: 20px;
+}
+.phonecont {
+    float: right;
+    text-align: right;
+}
+nav#site-navigation {
+    float: left;
+    max-width: 82%;
+    margin-top: 20px;
+}
+
+/**
+ * Home Page
+**/
+
+.row1 {
+    background-size: 100% 100% !important;
+    margin-top: -152px !important;
+}
+.innerrow1 {
+    background-repeat: no-repeat;
+    background-size: auto 100% !important;
+}
+
+/**
+ * Footer
+**/
+footer.entry-footer {
+    display: none;
+}
+.footer-columns {
+    padding: 0px;
+}
+footer#colophon {
+    border-top: 4px solid #6ab165;
+}
+.site-info .social-icons {
+    display: none;
+}
+.site-info .container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.foot1 p {
+    font-size: 25px;
+}
+.columns-4.last.foot3 {
+    padding-top: 50px;
+    text-align: center;
+}
+.foot1 {
+    padding-top: 50px;
+}
+.foot3 i.fa.fa-twitter, .foot3 i.fa.fa-facebook, .foot3 i.fa.fa-linkedin, .foot3 i.fa.fa-google-plus, .foot3 i.fa.fa-youtube {
+    background: #fff;
+}
+.foot3 i.fa.fa-twitter:before {
+    color: #28aae1;
+    border: 1px solid #28aae1;
+    border-radius: 50%;
+}
+.foot3 i.fa.fa-linkedin:before {
+    color: #007bb5;
+    border: 1px solid #007bb5;
+    border-radius: 50%;
+}
+.foot3 i.fa.fa-google-plus:before {
+    color: #e62c2e;
+    border: 1px solid #e62c2e;
+    border-radius: 50%;
+}
+.foot3 i.fa.fa-facebook:before {
+    color: #3c5a99;
+    border: 1px solid #3c5a99;
+    border-radius: 50%;
+}
+.foot3 i.fa.fa-youtube:before {
+    color: #e62c2e;
+    border: 1px solid #e62c2e;
+    border-radius: 50%;
+}
+.foot3 .social-icons .fa:before {
+    font-size: 20px;
+}

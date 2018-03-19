@@ -1,0 +1,567 @@
+# Copyright (C) 2015 Rotating Images
+# This file is distributed under the same license as the Rotating Images package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rotating Images 1.3.7\n"
+"Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
+"POT-Creation-Date: 2015-11-30 15:21:38+00:00\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: lib/file-utility/file-utility.php:122
+msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
+msgstr ""
+
+#: lib/file-utility/file-utility.php:125
+msgid "The GD image library is not installed."
+msgstr ""
+
+#: lib/file-utility/file-utility.php:132
+msgid "File &#8220;%s&#8221; is not an image."
+msgstr ""
+
+#: lib/file-utility/file-utility.php:188 lib/file-utility/file-utility.php:192
+#: lib/file-utility/file-utility.php:198
+msgid "Resize path invalid"
+msgstr ""
+
+#: lib/medialibrary/async-upload.php:37
+msgid "You do not have permission to upload files."
+msgstr ""
+
+#: lib/medialibrary/async-upload.php:56
+msgid "Dismiss"
+msgstr ""
+
+#: lib/medialibrary/async-upload.php:57
+msgid "&#8220;%s&#8221; has failed to upload due to an error"
+msgstr ""
+
+#: lib/medialibrary/init.php:235
+msgid "+ Add Image"
+msgstr ""
+
+#: lib/medialibrary/init.php:367
+msgid "Title"
+msgstr ""
+
+#: lib/medialibrary/init.php:376
+msgid "Caption"
+msgstr ""
+
+#: lib/medialibrary/init.php:393
+msgid "Description"
+msgstr ""
+
+#: lib/medialibrary/init.php:404
+msgid "Link URL"
+msgstr ""
+
+#: lib/medialibrary/init.php:407
+msgid "Enter a link URL or click above for presets."
+msgstr ""
+
+#: lib/medialibrary/init.php:415
+msgid "File URL"
+msgstr ""
+
+#: lib/medialibrary/init.php:419
+msgid "Location of the uploaded file."
+msgstr ""
+
+#: lib/medialibrary/init.php:437
+msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
+msgstr ""
+
+#: lib/medialibrary/init.php:442
+msgid "Alternate Text"
+msgstr ""
+
+#: lib/medialibrary/init.php:451
+msgid "Alignment"
+msgstr ""
+
+#: lib/medialibrary/init.php:539
+msgid "Sorry, you have filled your storage quota (%s MB)."
+msgstr ""
+
+#: lib/medialibrary/init.php:551
+msgid "Select Files"
+msgstr ""
+
+#: lib/medialibrary/init.php:635
+msgid "Choose files to upload"
+msgstr ""
+
+#: lib/medialibrary/init.php:637
+msgid "Cancel Upload"
+msgstr ""
+
+#: lib/medialibrary/init.php:639 lib/medialibrary/init.php:652
+msgid "Maximum upload file size: %d%s"
+msgstr ""
+
+#: lib/medialibrary/init.php:641
+msgid "After a file has been uploaded, you can add titles and descriptions."
+msgstr ""
+
+#: lib/medialibrary/init.php:648 lib/medialibrary/init.php:649
+msgid "Upload"
+msgstr ""
+
+#: lib/medialibrary/init.php:649
+msgid "Cancel"
+msgstr ""
+
+#: lib/medialibrary/init.php:654
+msgid ""
+"If you want to use all capabilities of the uploader, like uploading multiple "
+"files at once, please upgrade to lighttpd 1.5."
+msgstr ""
+
+#: lib/medialibrary/init.php:726
+msgid "File type does not meet security guidelines. Try another."
+msgstr ""
+
+#: lib/medialibrary/init.php:741
+msgid "The uploaded file could not be moved."
+msgstr ""
+
+#: lib/updater/admin.php:140
+msgid ""
+"To receive automatic updates for %l, use the <a href=\"%s\">iThemes "
+"Licensing</a> page found in the Settings menu."
+msgstr ""
+
+#: lib/updater/admin.php:147 lib/updater/admin.php:153
+#: lib/updater/settings-page.php:302
+msgid "iThemes Licensing"
+msgstr ""
+
+#: lib/updater/admin.php:181
+msgid "Manage iThemes product licenses to receive automatic upgrade support"
+msgstr ""
+
+#: lib/updater/admin.php:181
+msgid "License"
+msgstr ""
+
+#: lib/updater/api.php:41 lib/updater/api.php:59
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error <code>%1$s</code>: "
+"%2$s</p>"
+msgstr ""
+
+#: lib/updater/api.php:45
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from <code>wp_remote_get</code>.</p>"
+msgstr ""
+
+#: lib/updater/api.php:49
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error code <code>%1$s</"
+"code>: %2$s</p>"
+msgstr ""
+
+#: lib/updater/api.php:61
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from iThemes API server.</p>"
+msgstr ""
+
+#: lib/updater/server.php:78
+msgid ""
+"The server could not be contacted. Requests are delayed for %d minute to "
+"allow the server to recover."
+msgid_plural ""
+"The server could not be contacted. Requests are delayed for %d minutes to "
+"allow the server to recover."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/server.php:155
+msgid "The server was unable to be contacted."
+msgstr ""
+
+#: lib/updater/server.php:165
+msgid ""
+"An error occurred when communicating with the iThemes update server: %s (%s)"
+msgstr ""
+
+#: lib/updater/settings-page.php:77
+msgid ""
+"Incorrect password. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: lib/updater/settings-page.php:81
+msgid ""
+"Invalid username. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: lib/updater/settings-page.php:84
+msgid ""
+"The licensing server reports that the %1$s (%2$s) product is unknown. Please "
+"contact support for assistance."
+msgstr ""
+
+#: lib/updater/settings-page.php:87
+msgid ""
+"%1$s could not be licensed since the membership account is out of available "
+"licenses for this product. You can unlicense the product on other sites or "
+"upgrade your membership to one with a higher number of licenses in order to "
+"increase the amount of available licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:90
+msgid ""
+"%s could not be licensed due to an internal error. Please try to license %s "
+"again at a later time. If this problem continues, please contact iThemes "
+"support."
+msgstr ""
+
+#: lib/updater/settings-page.php:96
+msgid ""
+"An unknown error relating to the %1$s product occurred. Please contact "
+"iThemes support. Error details: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:98
+msgid ""
+"An unknown error occurred. Please contact iThemes support. Error details: %s"
+msgstr ""
+
+#: lib/updater/settings-page.php:129
+msgid "Settings saved"
+msgstr ""
+
+#: lib/updater/settings-page.php:136
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:138
+msgid ""
+"You must supply an iThemes membership username in order to license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:140
+msgid ""
+"You must supply an iThemes membership password in order to license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:142
+msgid ""
+"You must select at least one product to license. Ensure that you select the "
+"products that you wish to license in the listing below."
+msgstr ""
+
+#: lib/updater/settings-page.php:157
+msgid ""
+"An unknown server error occurred. Please try to license your products again "
+"at another time."
+msgstr ""
+
+#: lib/updater/settings-page.php:177
+msgid "Your product subscription has expired"
+msgstr ""
+
+#: lib/updater/settings-page.php:184
+msgid "Successfully licensed %l."
+msgstr ""
+
+#: lib/updater/settings-page.php:188 lib/updater/settings-page.php:193
+msgid "Unable to license %1$s. Reason: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:201
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:203
+msgid ""
+"You must supply an iThemes membership username in order to remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:205
+msgid ""
+"You must supply an iThemes membership password in order to remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:207
+msgid ""
+"You must select at least one license to remove. Ensure that you select the "
+"licenses that you wish to remove in the listing below."
+msgstr ""
+
+#: lib/updater/settings-page.php:222
+msgid ""
+"An unknown server error occurred. Please try to remove licenses from your "
+"products again at another time."
+msgstr ""
+
+#: lib/updater/settings-page.php:243
+msgid "Unknown server error."
+msgstr ""
+
+#: lib/updater/settings-page.php:248
+msgid "Successfully removed license from %l."
+msgid_plural "Successfully removed licenses from %l."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:252
+msgid "Unable to remove license from %1$s. Reason: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:324
+msgid "Settings"
+msgstr ""
+
+#: lib/updater/settings-page.php:330
+msgid "Quick Release Updates"
+msgstr ""
+
+#: lib/updater/settings-page.php:337
+msgid "Enable quick release updates"
+msgstr ""
+
+#: lib/updater/settings-page.php:340
+msgid ""
+"Some products have quick releases that are created to solve specific issues "
+"that some users experience. In order to avoid causing users to have updates "
+"show up too frequently, automatic updates to these quick releases are "
+"disabled by default. Enabling this feature allows quick releases to be "
+"available to the automatic update system. Using this option is only "
+"recommended if support has requested that you enable it in order to receive "
+"a quick release. You should disable this option at a later time after "
+"confirming that the quick release solves the issue for you."
+msgstr ""
+
+#: lib/updater/settings-page.php:347
+msgid "Save Settings"
+msgstr ""
+
+#: lib/updater/settings-page.php:366 lib/updater/settings-page.php:397
+#: lib/updater/settings-page.php:521 lib/updater/settings-page.php:589
+msgid "Product"
+msgstr ""
+
+#: lib/updater/settings-page.php:367 lib/updater/settings-page.php:399
+msgid "Member"
+msgstr ""
+
+#: lib/updater/settings-page.php:368 lib/updater/settings-page.php:401
+msgid "Expiration"
+msgstr ""
+
+#: lib/updater/settings-page.php:369 lib/updater/settings-page.php:402
+msgid "Remaining Licenses"
+msgstr ""
+
+#: lib/updater/settings-page.php:385
+msgid "Licensed Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:391 lib/updater/settings-page.php:515
+msgid "Select All"
+msgstr ""
+
+#: lib/updater/settings-page.php:400
+msgid "Product Status"
+msgstr ""
+
+#: lib/updater/settings-page.php:410
+msgid "unlimited"
+msgstr ""
+
+#: lib/updater/settings-page.php:451 lib/updater/settings-page.php:545
+msgid "Select %s"
+msgstr ""
+
+#: lib/updater/settings-page.php:471
+msgid "Remove Licenses"
+msgstr ""
+
+#: lib/updater/settings-page.php:505
+msgid "Unlicensed Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:507
+msgid ""
+"The following products have not been licensed. Licensing a product gives you "
+"access to automatic updates from within WordPress."
+msgstr ""
+
+#: lib/updater/settings-page.php:508
+msgid ""
+"To license products, select the products you wish to license, enter your "
+"iThemes membership username and password, and press the License Products "
+"button."
+msgstr ""
+
+#: lib/updater/settings-page.php:509
+msgid "Need help? <a href=\"%s\">Click here for a quick video tutorial</a>."
+msgstr ""
+
+#: lib/updater/settings-page.php:561
+msgid "License Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:581
+msgid "Unrecognized Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:583
+msgid ""
+"The following products were not recognized by the licensing system. This can "
+"be due to a bug in the product code, a temporary server issue, or because "
+"the product is no longer supported."
+msgstr ""
+
+#: lib/updater/settings-page.php:584
+msgid ""
+"Please check this page again at a later time to see if the problem resolves "
+"itself. If the product remains, please contact <a href=\"%s\">iThemes "
+"support</a> and provide them with the details given below."
+msgstr ""
+
+#: lib/updater/settings-page.php:590
+msgid "Type"
+msgstr ""
+
+#: lib/updater/settings-page.php:591
+msgid "Package"
+msgstr ""
+
+#: lib/updater/settings-page.php:592
+msgid "Version"
+msgstr ""
+
+#: lib/updater/settings-page.php:593
+msgid "Server Response"
+msgstr ""
+
+#: lib/updater/settings-page.php:603
+msgid "Unknown Error"
+msgstr ""
+
+#: lib/updater/settings-page.php:642
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:644
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:646
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:648
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:651
+msgid "%s ago"
+msgstr ""
+
+#: rotating-images.php:158
+msgid "Add an Image"
+msgstr ""
+
+#: rotating-images.php:159
+msgid "Add image"
+msgstr ""
+
+#: rotating-images.php:536 rotating-images.php:602
+msgid "error"
+msgid_plural "errors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rotating-images.php:684
+msgid "Settings updated"
+msgstr ""
+
+#: rotating-images.php:686
+msgid "Error while updating settings"
+msgstr ""
+
+#: rotating-images.php:689
+msgid "The fade options timing values must be numeric values greater than 0."
+msgstr ""
+
+#: rotating-images.php:691
+msgid "Please fix the input marked in red below."
+msgid_plural "Please fix the inputs marked in red below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: rotating-images.php:782
+msgid "image"
+msgid_plural "images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rotating-images.php:1053
+msgid "Browse Images"
+msgstr ""
+
+#: rotating-images.php:1089
+msgid "Rotating Images Settings"
+msgstr ""
+
+#: rotating-images.php:2334
+msgid "Display Rotating Images as a widget."
+msgstr ""
+
+#. #-#-#-#-#  rotating-images.pot (Rotating Images 1.3.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: rotating-images.php:2335 rotating-images.php:2395
+msgid "Rotating Images"
+msgstr ""
+
+#: rotating-images.php:2402
+msgid "Title:"
+msgstr ""
+
+#: rotating-images.php:2406
+msgid "Image Group:"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://ithemes.com/purchase/displaybuddy"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"DisplayBuddy Series - Rotate images using transitions, such as fade or "
+"slide, or static random image on page load."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ithemes.com/"
+msgstr ""

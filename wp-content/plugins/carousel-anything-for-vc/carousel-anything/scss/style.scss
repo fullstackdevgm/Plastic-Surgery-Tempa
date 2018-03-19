@@ -1,0 +1,117 @@
+.carousel-anything-container.owl-ca-theme.has-arrows {
+	.owl-ca-wrapper-outer {
+		z-index: 2;
+	}
+	.owl-ca-controls {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		left: 0;
+		margin-top: -10px;
+		height: 20px;
+		.owl-ca-buttons div {
+			background: transparent;
+			padding: 0;
+			margin: 0;
+			height: 20px;
+			width: 20px;
+			position: absolute;
+			left: -30px;
+			&.owl-ca-next {
+				left: auto;
+				right: -30px;
+			}
+			&:before {
+				font-family: dashicons;
+				content: "\f341";
+				top: 0;
+				left: 0;
+				position: absolute;
+				right: 0;
+				color: #333;
+				font-size: 20px;
+				text-align: center;
+				line-height: 20px;
+			}
+			&.owl-ca-next:before {
+				content: "\f345";
+			}
+		}
+	}
+}
+
+#post-image {
+	margin-bottom: 20px;
+}
+
+.gcp-post {
+	margin-left: 15px;
+	margin-right: 15px;
+	//width: 100%;
+	//position: relative;
+}
+
+.gcp-post-title, .gcp-post-author .gcp-post-content {
+	//margin: 0;
+	width: 100%;
+}
+
+/**
+
+.gcp-post-content > p {
+	//margin-bottom: 0;
+}
+
+.gcp-title-author {
+	width: 100%;
+	//top: 50%;
+	//position: absolute;
+}
+
+.gcp-design-bg {
+	.gcp-title-excerpt, .gcp-author-excerpt .gcp-title-author-excerpt {
+		bottom: 0;
+		//position: absolute;
+		padding: 20px;
+		width: 100%;
+	}
+}
+
+.gcp-title-and-excerpt > .gcp-post-title, .gcp-author-and-excerpt > .gcp-post-title, .gcp-author-and-excerpt > .gcp-post-title, .gcp-author-and-excerpt > .gcp-post-title, .gcp-title-and-excerpt > .gcp-post-author, .gcp-author-and-excerpt > .gcp-post-author, .gcp-author-and-excerpt > .gcp-post-author, .gcp-author-and-excerpt > .gcp-post-author {
+	padding-bottom: 20px;
+}
+
+.gcp-title-and-excerpt > .gcp-post-content, .gcp-author-and-excerpt > .gcp-post-content, .gcp-author-and-excerpt > .gcp-post-content, .gcp-author-and-excerpt > .gcp-post-content {
+	margin: 0;
+}
+*/
+
+.gcp-design-image {
+	.gcp-post-author + .gcp-post-content,
+	.gcp-post-title + .gcp-post-content {
+	    margin-top: 20px;
+	}
+}
+
+.gcp-design-bg {
+	position: relative;
+	.gcp-caption-wrapper {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		transform: translateY(-50%);
+	}
+	.gcp-caption-wrapper .gcp-has-excerpt {
+		top: auto;
+		bottom: 0;
+		transform: none;
+	}
+}
+
+.gcp-caption-wrapper {
+	h4, p {
+		margin: 0 0 15px !important;
+	}
+	padding: 30px !important;
+}

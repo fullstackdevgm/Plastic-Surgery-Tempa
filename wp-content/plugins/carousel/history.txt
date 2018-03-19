@@ -1,0 +1,118 @@
+0.0.8 - 2010-10-26 - Dustin Bolton
+	Initial release.
+1.0.0 - 2010-10-28 - Dustin Bolton
+	Added option to change group name.
+	Added option to randomize image order each page load.
+1.0.1 - 2010-10-29 - Dustin Bolton
+	Fixed unstripped slashes in titles.
+1.0.2 - 2010-11-01 - Dustin Bolton
+	Fixed array commas causing IE8 failure.
+1.0.3 - 2010-11-17 - Dustin Bolton
+	Fixed images being removed from a group when saving order without the order actually changing.
+1.0.4 - 2011-01-07 - Dustin Bolton
+	Major performance enhancement for image resizing. Images could sometimes get stuck resizing when not needed.
+1.0.5 - 2011-01-25 - Dustin Bolton
+	Updated medialib.
+1.0.7 - 2011-03-24 - Dustin Bolton
+	Updated downsize to iteration 20.
+1.0.8 - 2011-03-30 - Skyler Moore
+	Fixing widget form to show save settings.
+		carousel.php:
+			lines 291-295 Added:
+			if($instance['group'] == $id) {
+				$select = ' selected ';
+			} else {
+				$select = '';
+			}
+			line 296 changed:
+			echo '<option value="' . $id . '">' . stripslashes( $group['title'] ) . '</option>';
+			to
+			echo '<option value="' . $id . '"' . $select . '>' . stripslashes( $group['title'] ) . '</option>';
+1.0.9 - 2011-04-22 - Skyler Moore
+	Adding alt tags to carousel images.
+		carousel.php:
+			line 381 Added alt="' . $attachment_data['post_title'] . '" into img tag.
+1.0.10 - 2011-06-13 - Skyler Moore
+	Updated to latest updater replaced lib/updater.
+1.0.11 - 2011-07-01 - Skyler Moore
+	Updated to the latest updater replaced lib/updater to fix changelog.
+1.0.12 - 2011-07-26 - Josh Benham
+	Added support for user roles
+	updated save system to latest
+1.0.13 - 2011-08-10 - Josh Benham
+	Updated updater lib to the newer version
+1.0.14 - 2011-09-16 - Bes Zain
+    Fixing an issue with automatic upgrades
+1.0.15 - 2011-09-22 - Ronald Huereca
+	Fixing updater issue
+1.0.16 - 2011-09-22 - Ronald Huereca
+	Fixing updater issue
+1.0.17 - 2011-10-05 - Daniel Harzheim
+	Applied bandage to Opera overflow issue
+1.0.18 - 2011-12-7 - Josh Benham
+	Added support for new 3.3 media uploader
+1.0.19 - 2011-12-12 - Daniel Harzheim
+	Added new display buddy icon
+1.0.20 - 2011-12-16 - Josh Benham
+	Updated updater
+1.0.22 - 2012-2-10 - Josh Benham
+	fixed getting started
+1.0.23 - 2012-5-30 - Josh Benham
+	fixed media library css
+1.0.24 - 2012-06-14 - Daniel Harzheim
+	Added new Medialib for 3.4
+1.0.25 - 2012-11-9 - Josh Benham
+	Added feature for opening img links in new window,
+1.0.26 - 2012-11-15 - Josh Benham
+	Fixed "disabled" button in medialibrary.php.
+1.0.27 - 2012-12-11 - Josh Benham
+	Added fix for 3.5 medialibrary.
+1.0.28 - 2012-12-13 - Josh Benham
+	Added some css in init.txt for 3.5 fix.
+	Added latest version of jquery library. jquery.carouFredSel-6.1.0.
+1.0.29 - 2013-02-21 - Glenn Ansley
+	Added ability to set number of images that rotate on each transition
+2.0.0 - 2013-04-23 - Gerroald Barron & Josh Benham
+	Added responsive option.
+	Added entity width option for responsive carousel.
+	Added swipe option.
+	Added new function run_carousel_responsive to handle responsive carousel.
+	Added carousel, and carousel responsive layout directories for expansion in the future.
+	Removed call to swiftpopup.js to fix 404.
+	Added new ithemes updater lib.
+2.0.1 - 2013-04-25 - Josh Benham
+	Fixed updater string.
+2.0.2 - 2013-05-01 - Packaging Bot
+	Updated lib/updater to version 1.0.1
+2.0.3 - 2013-06-21 - Packaging Bot
+	Updated lib/updater to version 1.0.2
+2.0.4 - 2013-07-01 - Chris Jean
+	Added WordPress 3.6 compatibility to the media library integration code.
+2.0.8 - 2013-07-11 - Josh Benham
+	Syncing version numbers.
+	Fix for wordpress 3.6 and php 5.5.0. 
+	Fixed flash of unstyled content.
+	Added navigation arrow styles.
+2.0.9 - 2013-09-09 - Josh Benham
+	Added imagesLoaded jquery plugin.
+	Added fix for ie in run_carousel_responsive
+2.0.10 - 2013-09-11 - Josh Benham
+	Removed user roll setting for multisite users due to WordPress inconsistencies.
+2.0.11 - 2013-09-18 - Josh Benham
+	Fixed ie 8 issue with anchor tags wrapping images.
+2.0.12 - 2013-09-20 - Packaging Bot
+	Updated lib/updater to version 1.0.3
+2.0.13 - 2013-10-02 - Packaging Bot (lib/updater)
+	Big rewrite to the updater in order to make the code more flexible. This improves compatibility with plugins that allow for remote updating of plugins and themes.
+	The updater now supports providing changelog details for plugins and themes that have updates available. These details can be viewed by clicking the "View version **** details" link for the appropriate plugin or theme.
+2.0.14 - 2013-10-04 - Packaging Bot (lib/updater)
+	Enhancement: When releases with four version digits are released (such as 2.1.0.3), by default, the updater will not offer to update if just this last digit is updated. For instance, it will not automatically offer to update 2.1.0.1 to 2.1.0.3; rather, an automatic upgrade will become available when version 2.1.1 or greater is released. If you wish to force an update to these versions, you can add ithemes-updater-force-minor-update=1 to an admin page request (such as http://domain.com/wp-admin/index.php?ithemes-updater-force-minor-update=1) in order to force the updater make these releases available for an hour. If the update is not performed within the hour, the updater reverts back to default behavior.
+	Bug Fix: Corrected source of the following error when updating: Download failed. SSL certificate problem, verify that the CA cert is OK. Details: error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+	Bug Fix: Corrected source of the following warning: Warning: require_once(/api.php) [function.require-once]: failed to open stream: No such file or directory
+2.0.15 - 2013-10-07 - Packaging Bot (lib/updater)
+	Bug Fix: Corrected another source of the following warning which occur immediate after updating the plugin or theme: Warning: require_once(/api.php) [function.require-once]: failed to open stream: No such file or directory
+2.0.16 - 2013-10-28 - Packaging Bot (lib/updater)
+	Enhancement: Added a "Quick Release Updates" setting to the bottom of the licensing page. Enabling this option allows the site to receive automatic update notices for product quick releases (releases that do not have automatic update support by default).
+	Enhancement: Changed how the licensing page works on Multisite. Now it will appear at Settings > iThemes Licensing in the network admin Dashboard and at Settings > iThemes Licensing on sites when the current user is a network admin. This prevents exposing the licensing page to users that don't are not super users and thus should not be performing updates. As this update makes the functionality of the "Licensing Page Access" setting obsolete, the setting has been removed.
+	Enhancement: Using the ithemes-updater-force-minor-update query string variable will now force a data flush, allowing any available quick release updates to appear instantly.
+	Enhancement: Added "License" links to the Plugins and Themes pages for the Network Admin Dashboard of multisite installs.

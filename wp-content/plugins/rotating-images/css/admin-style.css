@@ -1,0 +1,51 @@
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	background-color: #444;
+	color: #fff;
+	padding: 10px;
+	max-width: 300px;
+}
+#tooltip h3, #tooltip div { margin: 0; }
+.pluginbuddy-nodecor a {
+	text-decoration: none;
+}
+.wrap table table td, .wrap table table th {
+	border-bottom: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.form-table td {
+	padding: 10px;
+}
+
+td.dragHandle {
+	cursor: ns-resize;
+	text-align: center;
+	vertical-align: middle;
+}
+
+tr.tDnD_whileDrag {
+	box-shadow: 0px 5px 5px rgba(0,0,0,1);
+}
+
+tr.tDnD_whileDrag td,
+tr.tDnD_whileDrag th{
+	background: #EEEEEE;
+	border-top: 1px dashed #BBBBBB !important;
+	border-bottom: 1px dashed #BBBBBB !important;
+}
+tbody#it_reorder tr:nth-child(2n) {
+	background: #f9f9f9;
+}
+.js .postbox h3 {
+	cursor:default;
+}
+
+.form-table th {
+	padding-right: 50px;
+}
+
+.row-actions {
+	visibility: visible;
+}

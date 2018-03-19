@@ -1,0 +1,14 @@
+# Copyright (C) 2015 Gambit Plugin
+# This file is distributed under the same license as the Gambit Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gambit Plugin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+"Language: en_US\n"

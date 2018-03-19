@@ -1,0 +1,661 @@
+# Copyright (C) 2016 Carousel Anything for VC
+# This file is distributed under the same license as the Carousel Anything for VC package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Carousel Anything for VC\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+"Language: en_US\n"
+
+#: class-carousel-anything.php:60
+msgid "Carousel Anything"
+msgstr "Carousel Anything"
+
+#: class-carousel-anything.php:63
+msgid "A modern and responsive content carousel system."
+msgstr "A modern and responsive content carousel system."
+
+#: class-carousel-anything.php:75, class-carousel-posts.php:285
+msgid "Items to display on screen"
+msgstr "Items to display on screen"
+
+#: class-carousel-anything.php:78, class-carousel-anything.php:88,
+#: class-carousel-anything.php:97, class-carousel-anything.php:105,
+#: class-carousel-posts.php:288, class-carousel-posts.php:298,
+#: class-carousel-posts.php:307, class-carousel-posts.php:315
+msgid "General Options"
+msgstr "General Options"
+
+#: class-carousel-anything.php:79, class-carousel-posts.php:289
+msgid "Maximum items to display at a time."
+msgstr "Maximum items to display at a time."
+
+#: class-carousel-anything.php:85, class-carousel-posts.php:295
+msgid "Items to display on small desktops"
+msgstr "Items to display on small desktops"
+
+#: class-carousel-anything.php:89, class-carousel-posts.php:299
+msgid "Maximum items to display at a time for smaller screened desktops."
+msgstr "Maximum items to display at a time for smaller screened desktops."
+
+#: class-carousel-anything.php:94, class-carousel-posts.php:304
+msgid "Items to display on tablets"
+msgstr "Items to display on tablets"
+
+#: class-carousel-anything.php:98, class-carousel-posts.php:308
+msgid "Maximum items to display at a time for tablet devices."
+msgstr "Maximum items to display at a time for tablet devices."
+
+#: class-carousel-anything.php:102, class-carousel-posts.php:312
+msgid "Items to display on mobile phones"
+msgstr "Items to display on mobile phones"
+
+#: class-carousel-anything.php:106, class-carousel-posts.php:316
+msgid "Maximum items to display at a time for mobile devices."
+msgstr "Maximum items to display at a time for mobile devices."
+
+#: class-carousel-anything.php:110, class-carousel-posts.php:520
+msgid "Navigation Thumbnails"
+msgstr "Navigation Thumbnails"
+
+#: class-carousel-anything.php:113, class-carousel-posts.php:523
+msgid "Circle"
+msgstr "Circle"
+
+#: class-carousel-anything.php:114, class-carousel-posts.php:524
+msgid "Square"
+msgstr "Square"
+
+#: class-carousel-anything.php:115, class-carousel-posts.php:525
+msgid "Arrows"
+msgstr "Arrows"
+
+#: class-carousel-anything.php:116, class-carousel-posts.php:526
+msgid "None"
+msgstr "None"
+
+#: class-carousel-anything.php:118, class-carousel-posts.php:528
+msgid ""
+"Select whether to display thumbnails below your carousel for navigation."
+"<br>Selecting Arrows will display navigation arrows at each side."
+msgstr ""
+"Select whether to display thumbnails below your carousel for navigation."
+"<br>Selecting Arrows will display navigation arrows at each side."
+
+#: class-carousel-anything.php:119, class-carousel-anything.php:131,
+#: class-carousel-anything.php:143, class-carousel-anything.php:155,
+#: class-carousel-anything.php:167, class-carousel-anything.php:179,
+#: class-carousel-anything.php:191, class-carousel-anything.php:203,
+#: class-carousel-anything.php:215, class-carousel-posts.php:529,
+#: class-carousel-posts.php:541, class-carousel-posts.php:553,
+#: class-carousel-posts.php:565, class-carousel-posts.php:577,
+#: class-carousel-posts.php:589, class-carousel-posts.php:601,
+#: class-carousel-posts.php:613, class-carousel-posts.php:625
+msgid "Thumbnails"
+msgstr "Thumbnails"
+
+#: class-carousel-anything.php:123, class-carousel-posts.php:533
+msgid "Thumbnail Default Color"
+msgstr "Thumbnail Default Color"
+
+#: class-carousel-anything.php:126, class-carousel-posts.php:536
+msgid ""
+"The color of the non-active thumbnail. Not applicable to Arrows type of "
+"navigation."
+msgstr ""
+"The color of the non-active thumbnail. Not applicable to Arrows type of "
+"navigation."
+
+#: class-carousel-anything.php:135, class-carousel-posts.php:545
+msgid "Thumbnail Active Color"
+msgstr "Thumbnail Active Color"
+
+#: class-carousel-anything.php:138, class-carousel-posts.php:548
+msgid ""
+"The color of the active / current thumbnail. Not applicable to Arrows type "
+"of navigation."
+msgstr ""
+"The color of the active / current thumbnail. Not applicable to Arrows type "
+"of navigation."
+
+#: class-carousel-anything.php:149, class-carousel-posts.php:559
+msgid ""
+"Check to display page numbers inside the thumbnails. Not applicable to "
+"Arrows type of navigation."
+msgstr ""
+"Check to display page numbers inside the thumbnails. Not applicable to "
+"Arrows type of navigation."
+
+#: class-carousel-anything.php:159, class-carousel-posts.php:569
+msgid "Thumbnail Default Page Number Color"
+msgstr "Thumbnail Default Page Number Color"
+
+#: class-carousel-anything.php:162, class-carousel-posts.php:572
+msgid "The color of the page numbers inside non-active thumbnails"
+msgstr "The color of the page numbers inside non-active thumbnails"
+
+#: class-carousel-anything.php:171, class-carousel-posts.php:581
+msgid "Thumbnail Active Page Number Color"
+msgstr "Thumbnail Active Page Number Color"
+
+#: class-carousel-anything.php:174, class-carousel-posts.php:584
+msgid "The color of the page numbers inside active / current thumbnails"
+msgstr "The color of the page numbers inside active / current thumbnails"
+
+#: class-carousel-anything.php:183, class-carousel-posts.php:593
+msgid "Arrows Default Color"
+msgstr "Arrows Default Color"
+
+#: class-carousel-anything.php:186, class-carousel-posts.php:596
+msgid "The default color of the navigation arrow."
+msgstr "The default color of the navigation arrow."
+
+#: class-carousel-anything.php:195, class-carousel-posts.php:605
+msgid "Arrows Active Color"
+msgstr "Arrows Active Color"
+
+#: class-carousel-anything.php:198, class-carousel-posts.php:608
+msgid "The color of the active / current arrows when highlighted."
+msgstr "The color of the active / current arrows when highlighted."
+
+#: class-carousel-anything.php:207, class-carousel-posts.php:617
+msgid "Arrows Size"
+msgstr "Arrows Size"
+
+#: class-carousel-anything.php:210, class-carousel-posts.php:620
+msgid "The size of the arrows can be customized here."
+msgstr "The size of the arrows can be customized here."
+
+#: class-carousel-anything.php:219, class-carousel-posts.php:629
+msgid "Starting Position"
+msgstr "Starting Position"
+
+#: class-carousel-anything.php:222, class-carousel-posts.php:632
+msgid ""
+"Enter the starting position of the carousel. Leave blank to disable this "
+"function"
+msgstr ""
+"Enter the starting position of the carousel. Leave blank to disable this "
+"function"
+
+#: class-carousel-anything.php:223, class-carousel-anything.php:231,
+#: class-carousel-anything.php:243, class-carousel-anything.php:251,
+#: class-carousel-anything.php:259, class-carousel-anything.php:267,
+#: class-carousel-anything.php:279, class-carousel-anything.php:287,
+#: class-carousel-anything.php:295, class-carousel-posts.php:633,
+#: class-carousel-posts.php:641, class-carousel-posts.php:653,
+#: class-carousel-posts.php:661, class-carousel-posts.php:669,
+#: class-carousel-posts.php:677, class-carousel-posts.php:689,
+#: class-carousel-posts.php:697, class-carousel-posts.php:705
+msgid "Advanced"
+msgstr "Advanced"
+
+#: class-carousel-anything.php:227, class-carousel-posts.php:637
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: class-carousel-anything.php:230, class-carousel-posts.php:640
+msgid ""
+"Enter an amount in milliseconds for the carousel to move. Leave blank to "
+"disable autoplay"
+msgstr ""
+"Enter an amount in milliseconds for the carousel to move. Leave blank to "
+"disable autoplay"
+
+#: class-carousel-anything.php:237, class-carousel-posts.php:647
+msgid "Pause the carousel when the mouse is hovered onto it."
+msgstr "Pause the carousel when the mouse is hovered onto it."
+
+#: class-carousel-anything.php:247, class-carousel-posts.php:657
+msgid "Scroll Speed"
+msgstr "Scroll Speed"
+
+#: class-carousel-anything.php:250, class-carousel-posts.php:660
+msgid "The speed the carousel scrolls in milliseconds"
+msgstr "The speed the carousel scrolls in milliseconds"
+
+#: class-carousel-anything.php:255, class-carousel-posts.php:665
+msgid "Rewind Speed"
+msgstr "Rewind Speed"
+
+#: class-carousel-anything.php:258, class-carousel-posts.php:668
+msgid ""
+"The speed the carousel scrolls back to the beginning after it reaches the "
+"end in milliseconds"
+msgstr ""
+"The speed the carousel scrolls back to the beginning after it reaches the "
+"end in milliseconds"
+
+#: class-carousel-anything.php:265, class-carousel-posts.php:675
+msgid ""
+"Check this box to disable touch dragging of the carousel. (Normally enabled "
+"by default)"
+msgstr ""
+"Check this box to disable touch dragging of the carousel. (Normally enabled "
+"by default)"
+
+#: class-carousel-anything.php:271, class-carousel-posts.php:681
+msgid "Keyboard Navigation"
+msgstr "Keyboard Navigation"
+
+#: class-carousel-anything.php:274, class-carousel-posts.php:684
+msgid "Disabled"
+msgstr "Disabled"
+
+#: class-carousel-anything.php:275, class-carousel-posts.php:685
+msgid "Cursor keys"
+msgstr "Cursor keys"
+
+#: class-carousel-anything.php:276, class-carousel-posts.php:686
+msgid "A and D keys"
+msgstr "A and D keys"
+
+#: class-carousel-anything.php:278
+msgid ""
+"Select whether to enable carousel manipulation through cursor keys. Enabling "
+"this on a page with multiple carousels may give unpredictable results! Use "
+"it on a page with a single Carousel Anything element, or when there are no "
+"other scripts binding cursor or other keys present that may conflict."
+msgstr ""
+"Select whether to enable carousel manipulation through cursor keys. Enabling "
+"this on a page with multiple carousels may give unpredictable results! Use "
+"it on a page with a single Carousel Anything element, or when there are no "
+"other scripts binding cursor or other keys present that may conflict."
+
+#: class-carousel-anything.php:283, class-carousel-posts.php:693
+msgid "Custom Class"
+msgstr "Custom Class"
+
+#: class-carousel-anything.php:286, class-carousel-posts.php:696
+msgid "Add a custom class name for the carousel here."
+msgstr "Add a custom class name for the carousel here."
+
+#: class-carousel-anything.php:291, class-carousel-posts.php:701
+msgid "Rendering direction"
+msgstr "Rendering direction"
+
+#: class-carousel-anything.php:293, class-carousel-posts.php:703
+msgid ""
+"Check this box to reverse the rendering direction of the carousel, and even "
+"the icons. This is commonly known as RTL (Right-To-Left), and essential for "
+"Arabic / Middle-eastern languages."
+msgstr ""
+"Check this box to reverse the rendering direction of the carousel, and even "
+"the icons. This is commonly known as RTL (Right-To-Left), and essential for "
+"Arabic / Middle-eastern languages."
+
+#: class-carousel-posts.php:61
+msgid "Select Post Type we will be using"
+msgstr "Select Post Type we will be using"
+
+#: class-carousel-posts.php:64
+msgid ""
+"Choose the Post Type to use to populate the Carousel.<br />If your post type "
+"has a taxonomy like Category, and its terms has posts associated with it, a "
+"new pulldown below will appear."
+msgstr ""
+"Choose the Post Type to use to populate the Carousel.<br />If your post type "
+"has a taxonomy like Category, and its terms has posts associated with it, a "
+"new pulldown below will appear."
+
+#: class-carousel-posts.php:65, class-carousel-posts.php:138,
+#: class-carousel-posts.php:326, class-carousel-posts.php:343,
+#: class-carousel-posts.php:355, class-carousel-posts.php:368,
+#: class-carousel-posts.php:379, class-carousel-posts.php:393
+msgid "Contents"
+msgstr "Contents"
+
+#: class-carousel-posts.php:108
+msgid "All Categories"
+msgstr "All Categories"
+
+#: class-carousel-posts.php:125
+msgid "Select Category / Taxonomy for %s"
+msgstr "Select Category / Taxonomy for %s"
+
+#: class-carousel-posts.php:133
+msgid "Choose the category terms for this post type to use."
+msgstr "Choose the category terms for this post type to use."
+
+#: class-carousel-posts.php:271
+msgid "Carousel Posts"
+msgstr "Carousel Posts"
+
+#: class-carousel-posts.php:274
+msgid "A modern and responsive posts carousel system."
+msgstr "A modern and responsive posts carousel system."
+
+#: class-carousel-posts.php:320
+msgid "Select Post Type source"
+msgstr "Select Post Type source"
+
+#: class-carousel-posts.php:323
+msgid "From Selection"
+msgstr "From Selection"
+
+#: class-carousel-posts.php:324
+msgid "From custom input"
+msgstr "From custom input"
+
+#: class-carousel-posts.php:339
+msgid "Specified post type entry"
+msgstr "Specified post type entry"
+
+#: class-carousel-posts.php:342
+msgid ""
+"If selections do not work for you, you can specify manually the slug of the "
+"post type that you want to use instead. This can be seen by observing the "
+"URL and its GET variables in your browser window when you browse posts of a "
+"particular post type."
+msgstr ""
+"If selections do not work for you, you can specify manually the slug of the "
+"post type that you want to use instead. This can be seen by observing the "
+"URL and its GET variables in your browser window when you browse posts of a "
+"particular post type."
+
+#: class-carousel-posts.php:351
+msgid "Number of Total Posts"
+msgstr "Number of Total Posts"
+
+#: class-carousel-posts.php:354
+msgid ""
+"Specify how many posts to pull all in all. When this amount is reached, all "
+"other posts will be ignored. Zero or blank values will pull all posts "
+"regardless of post types."
+msgstr ""
+"Specify how many posts to pull all in all. When this amount is reached, all "
+"other posts will be ignored. Zero or blank values will pull all posts "
+"regardless of post types."
+
+#: class-carousel-posts.php:359
+msgid "Post ordering"
+msgstr "Post ordering"
+
+#: class-carousel-posts.php:362
+msgid "By Date"
+msgstr "By Date"
+
+#: class-carousel-posts.php:363
+msgid "By Post Title"
+msgstr "By Post Title"
+
+#: class-carousel-posts.php:364
+msgid "By Comment count"
+msgstr "By Comment count"
+
+#: class-carousel-posts.php:365
+msgid "Random"
+msgstr "Random"
+
+#: class-carousel-posts.php:367
+msgid "Select the order of posting to pull."
+msgstr "Select the order of posting to pull."
+
+#: class-carousel-posts.php:372
+msgid "Post direction"
+msgstr "Post direction"
+
+#: class-carousel-posts.php:375
+msgid "Descending"
+msgstr "Descending"
+
+#: class-carousel-posts.php:376
+msgid "Ascending"
+msgstr "Ascending"
+
+#: class-carousel-posts.php:378
+msgid "Choose sorting order of the post."
+msgstr "Choose sorting order of the post."
+
+#: class-carousel-posts.php:386
+msgid "Featured Image"
+msgstr "Featured Image"
+
+#: class-carousel-posts.php:387
+msgid "Title"
+msgstr "Title"
+
+#: class-carousel-posts.php:388, class-post-pull.php:135
+msgid "Author"
+msgstr "Author"
+
+#: class-carousel-posts.php:389
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: class-carousel-posts.php:400
+msgid "Plain image"
+msgstr "Plain image"
+
+#: class-carousel-posts.php:401, class-post-pull.php:156
+msgid "Use as background image"
+msgstr "Use as background image"
+
+#: class-carousel-posts.php:403
+msgid ""
+"The selection done here will affect all posts pulled. If a post does not "
+"have a Featured Image, it will not be rendered for that post."
+msgstr ""
+"The selection done here will affect all posts pulled. If a post does not "
+"have a Featured Image, it will not be rendered for that post."
+
+#: class-carousel-posts.php:404, class-carousel-posts.php:417,
+#: class-carousel-posts.php:425, class-carousel-posts.php:436,
+#: class-carousel-posts.php:444, class-carousel-posts.php:452,
+#: class-carousel-posts.php:464, class-carousel-posts.php:476,
+#: class-carousel-posts.php:488, class-carousel-posts.php:500,
+#: class-carousel-posts.php:512
+msgid "Design"
+msgstr "Design"
+
+#: class-carousel-posts.php:411, class-post-pull.php:169
+msgid "No alignment"
+msgstr "No alignment"
+
+#: class-carousel-posts.php:412, class-post-pull.php:170
+msgid "Align left"
+msgstr "Align left"
+
+#: class-carousel-posts.php:413, class-post-pull.php:171
+msgid "Align center"
+msgstr "Align center"
+
+#: class-carousel-posts.php:414, class-post-pull.php:172
+msgid "Align right"
+msgstr "Align right"
+
+#: class-carousel-posts.php:416, class-post-pull.php:174
+msgid ""
+"If desired, you can force content alignment of the particular pulled post."
+msgstr ""
+"If desired, you can force content alignment of the particular pulled post."
+
+#: class-carousel-posts.php:421
+msgid "Excerpt word count"
+msgstr "Excerpt word count"
+
+#: class-carousel-posts.php:424
+msgid ""
+"If your post excerpt is too long, you can limit the amount of words printed "
+"here."
+msgstr ""
+"If your post excerpt is too long, you can limit the amount of words printed "
+"here."
+
+#: class-carousel-posts.php:432
+msgid ""
+"Check to add elipsis on the end part of the excerpt. If the wordcount is "
+"shorter than the limit, the ellipsis will not be added."
+msgstr ""
+"Check to add elipsis on the end part of the excerpt. If the wordcount is "
+"shorter than the limit, the ellipsis will not be added."
+
+#: class-carousel-posts.php:440
+msgid "Custom ellipsis"
+msgstr "Custom ellipsis"
+
+#: class-carousel-posts.php:443
+msgid "If you want to customize your ellipsis character, you can do so here."
+msgstr "If you want to customize your ellipsis character, you can do so here."
+
+#: class-carousel-posts.php:448
+msgid "Image Height"
+msgstr "Image Height"
+
+#: class-carousel-posts.php:451
+msgid ""
+"Specify the height of the image inside the carousel content for each post."
+msgstr ""
+"Specify the height of the image inside the carousel content for each post."
+
+#: class-carousel-posts.php:460
+msgid "Content Height"
+msgstr "Content Height"
+
+#: class-carousel-posts.php:463
+msgid "Specify the height of the carousel content for each post."
+msgstr "Specify the height of the carousel content for each post."
+
+#: class-carousel-posts.php:472
+msgid "Title Text Color"
+msgstr "Title Text Color"
+
+#: class-carousel-posts.php:475
+msgid "The color of the title for each pulled post."
+msgstr "The color of the title for each pulled post."
+
+#: class-carousel-posts.php:484
+msgid "Author Text Color"
+msgstr "Author Text Color"
+
+#: class-carousel-posts.php:487
+msgid "The color of the text of the author of each pulled post."
+msgstr "The color of the text of the author of each pulled post."
+
+#: class-carousel-posts.php:496
+msgid "Body Text Color"
+msgstr "Body Text Color"
+
+#: class-carousel-posts.php:499
+msgid "The color of the body text for each pulled post."
+msgstr "The color of the body text for each pulled post."
+
+#: class-carousel-posts.php:508
+msgid "Body Background Color"
+msgstr "Body Background Color"
+
+#: class-carousel-posts.php:511
+msgid "The background color of the pulled post."
+msgstr "The background color of the pulled post."
+
+#: class-carousel-posts.php:688
+msgid ""
+"Select whether to enable carousel manipulation through cursor keys. Enabling "
+"this on a page with multiple carousels may give unpredictable results! Use "
+"it on a page with a single Carousel Posts element, or when there are no "
+"other scripts binding cursor or other keys present that may conflict."
+msgstr ""
+"Select whether to enable carousel manipulation through cursor keys. Enabling "
+"this on a page with multiple carousels may give unpredictable results! Use "
+"it on a page with a single Carousel Posts element, or when there are no "
+"other scripts binding cursor or other keys present that may conflict."
+
+#: class-plugin.php:52
+msgid "Automatic Updates"
+msgstr "Automatic Updates"
+
+#: class-plugin.php:53
+msgid ""
+"Keep your Carousel Anything for VC plugin updated by entering your purchase "
+"code here."
+msgstr ""
+"Keep your Carousel Anything for VC plugin updated by entering your purchase "
+"code here."
+
+#: class-plugin.php:92
+msgid "Get Customer Support"
+msgstr "Get Customer Support"
+
+#: class-plugin.php:96
+msgid "Get More Plugins"
+msgstr "Get More Plugins"
+
+#: class-post-pull.php:118
+msgid "Single Post"
+msgstr "Single Post"
+
+#: class-post-pull.php:121
+msgid "Pull up a single post."
+msgstr "Pull up a single post."
+
+#: class-post-pull.php:125
+msgid "Choose a Post"
+msgstr "Choose a Post"
+
+#: class-post-pull.php:132
+msgid "Display the Post's..."
+msgstr "Display the Post's..."
+
+#: class-post-pull.php:136
+msgid "Date Published"
+msgstr "Date Published"
+
+#: class-post-pull.php:137
+msgid "Category"
+msgstr "Category"
+
+#: class-post-pull.php:138
+msgid "Tags"
+msgstr "Tags"
+
+#: class-post-pull.php:139
+msgid "Show excerpt instead of the full post."
+msgstr "Show excerpt instead of the full post."
+
+#: class-post-pull.php:141
+msgid ""
+"If there are no excerpts in the post, the full post will be displayed but "
+"reduced. Categories will not be printed if the post does not belong to any "
+"category"
+msgstr ""
+"If there are no excerpts in the post, the full post will be displayed but "
+"reduced. Categories will not be printed if the post does not belong to any "
+"category"
+
+#: class-post-pull.php:145
+msgid "Posts Background Color"
+msgstr "Posts Background Color"
+
+#: class-post-pull.php:148
+msgid "The background color of the post."
+msgstr "The background color of the post."
+
+#: class-post-pull.php:155
+msgid "Do not use Featured Image at all"
+msgstr "Do not use Featured Image at all"
+
+#: class-post-pull.php:157
+msgid "Display at the top with no alignment"
+msgstr "Display at the top with no alignment"
+
+#: class-post-pull.php:158
+msgid "Display at the left"
+msgstr "Display at the left"
+
+#: class-post-pull.php:159
+msgid "Display at the center"
+msgstr "Display at the center"
+
+#: class-post-pull.php:160
+msgid "Display at the right"
+msgstr "Display at the right"
+
+#: class-post-pull.php:162
+msgid "If a post does not have a Featured Image, it will not be rendered."
+msgstr "If a post does not have a Featured Image, it will not be rendered."

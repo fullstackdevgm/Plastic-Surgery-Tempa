@@ -1,0 +1,298 @@
+$css .= '.pb_carousel_default {' . "\n";
+$css .= '	width: ' . $group['entity_width'] . 'px;' . "\n";
+
+	if ( $group['align'] == 'left' ) {
+		$css .= '	margin-right: auto;' . "\n";
+	} elseif ( $group['align'] == 'center' ) {
+		$css .= '	margin-right: auto; margin-left: auto;' . "\n";
+	} elseif ( $group['align'] == 'right' ) {
+		$css .= '	margin-left: auto;' . "\n";
+	}
+
+$css .= '}';
+if ( isset( $group['arrows'] ) ) {
+	if ( $group['arrows'] == 'classic_outset' ) {
+$css .= 'a.pb_carousel_default_prev, a.pb_carousel_default_next {' . "\n";
+$css .= '	width: 45px;' . "\n";
+$css .= '	height: 50px;' . "\n";
+$css .= '	display: block;' . "\n";
+$css .= '	position: absolute;' . "\n";
+$css .= '	background: url( ' . $this->_pluginURL . '/layouts/carousel/default/images.png) no-repeat transparent;' . "\n";
+
+	if ( ( $group['direction'] == 'left' ) || ( $group['direction'] == 'right' ) ) {
+		$css .= '	top: ' . intval( $group['image_height']/2 -6) . 'px;' . "\n";
+	} else {
+		$css .= '	top: ' . intval( $group['image_height']*$group['items'] / 2) . 'px;' . "\n";
+	}
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev {' . "\n";
+$css .= '	left: -22px;' . "\n";
+$css .= '	background-position: 0 0;' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev:hover {' . "\n";
+$css .= '	background-position: 0 -50px;' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next {' . "\n";
+$css .= '	background-position: -50px 0;' . "\n";
+$css .= '	right: -22px;';
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next:hover {' . "\n";
+$css .= '	background-position: -50px -50px;' . "\n";
+$css .= '}' . "\n";
+	}
+
+
+	elseif ( $group['arrows'] == 'classic_inset' ) {
+$css .= 'a.pb_carousel_default_prev, a.pb_carousel_default_next {' . "\n";
+$css .= '	width: 45px;' . "\n";
+$css .= '	height: 50px;' . "\n";
+$css .= '	display: block;' . "\n";
+$css .= '	position: absolute;' . "\n";
+$css .= '	background: url( ' . $this->_pluginURL . '/layouts/carousel/default/images.png) no-repeat transparent;' . "\n";
+
+	if ( ( $group['direction'] == 'left' ) || ( $group['direction'] == 'right' ) ) {
+		$css .= '	top: ' . intval( $group['image_height']/2 -6) . 'px;' . "\n";
+	} else {
+		$css .= '	top: ' . intval( $group['image_height']*$group['items'] / 2) . 'px;' . "\n";
+	}
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev {' . "\n";
+$css .= '	left: 5px;' . "\n";
+$css .= '	background-position: 0 0;' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev:hover {' . "\n";
+$css .= '	background-position: 0 -50px;' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next {' . "\n";
+$css .= '	background-position: -50px 0;' . "\n";
+$css .= '	right: 5px;' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next:hover {' . "\n";
+$css .= '	background-position: -50px -50px;' . "\n";
+$css .= '}' . "\n";
+	}
+
+
+	elseif ( $group['arrows'] == 'dark_lined' ) {
+$css .= 'a.pb_carousel_default_prev, a.pb_carousel_default_next {' . "\n";
+$css .= '	width: 35px;' . "\n";
+$css .= '	height: 35px;' . "\n";
+$css .= '	display: block;' . "\n";
+$css .= '	position: absolute;' . "\n";
+$css .= '	background: url( ' . $this->_pluginURL . '/layouts/carousel/default/single-arrow.png) no-repeat transparent;' . "\n";
+
+	if ( ( $group['direction'] == 'left' ) || ( $group['direction'] == 'right' ) ) {
+		$css .= '	top: ' . intval( $group['image_height']/2 -6) . 'px;' . "\n";
+	} else {
+		$css .= '	top: ' . intval( $group['image_height']*$group['items'] / 2) . 'px;' . "\n";
+	}
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev {' . "\n";
+$css .= '	left: 10px;' . "\n";
+$css .= '	background-position: 0 0;' . "\n";
+$css .= '	opacity: 0.5;' . "\n";
+$css .= '	filter:alpha(opacity=50);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next {' . "\n";
+$css .= '	background-position: -35px 0;' . "\n";
+$css .= '	right: 10px;' . "\n";
+$css .= '	opacity: 0.5;' . "\n";
+$css .= '	filter:alpha(opacity=50);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+	}
+
+
+	elseif ( $group['arrows'] == 'minimal' ) {
+$css .= 'a.pb_carousel_default_prev, a.pb_carousel_default_next {' . "\n";
+$css .= '	width: 35px;' . "\n";
+$css .= '	height: 35px;' . "\n";
+$css .= '	display: block;' . "\n";
+$css .= '	position: absolute;' . "\n";
+$css .= '	background: url( ' . $this->_pluginURL . '/layouts/carousel/default/arrows-white.png) no-repeat transparent;' . "\n";
+
+	if ( ( $group['direction'] == 'left' ) || ( $group['direction'] == 'right' ) ) {
+		$css .= '	top: ' . intval( $group['image_height']/2 -6) . 'px;' . "\n";
+	} else {
+		$css .= '	top: ' . intval( $group['image_height']*$group['items'] / 2) . 'px;' . "\n";
+	}
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev {' . "\n";
+$css .= '	left: 10px;' . "\n";
+$css .= '	background-position: 0 0;' . "\n";
+$css .= '	opacity: 0.3;' . "\n";
+$css .= '	filter:alpha(opacity=30);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next {' . "\n";
+$css .= '	background-position: -35px 0;' . "\n";
+$css .= '	right: 10px;' . "\n";
+$css .= '	opacity: 0.3;' . "\n";
+$css .= '	filter:alpha(opacity=30);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+	}
+
+
+	elseif ( $group['arrows'] == 'dark_double' ) {
+$css .= 'a.pb_carousel_default_prev, a.pb_carousel_default_next {' . "\n";
+$css .= '	width: 35px;' . "\n";
+$css .= '	height: 35px;' . "\n";
+$css .= '	display: block;' . "\n";
+$css .= '	position: absolute;' . "\n";
+$css .= '	background: url( ' . $this->_pluginURL . '/layouts/carousel/default/double-arrows.png) no-repeat transparent;' . "\n";
+
+	if ( ( $group['direction'] == 'left' ) || ( $group['direction'] == 'right' ) ) {
+		$css .= '	top: ' . intval( $group['image_height']/2 -6) . 'px;' . "\n";
+	} else {
+		$css .= '	top: ' . intval( $group['image_height']*$group['items'] / 2) . 'px;' . "\n";
+	}
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev {' . "\n";
+$css .= '	left: 10px;' . "\n";
+$css .= '	background-position: 0 0;' . "\n";
+$css .= '	opacity: 0.5;' . "\n";
+$css .= '	filter:alpha(opacity=50);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next {' . "\n";
+$css .= '	background-position: -35px 0;' . "\n";
+$css .= '	right: 10px;' . "\n";
+$css .= '	opacity: 0.5;' . "\n";
+$css .= '	filter:alpha(opacity=50);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+	}
+
+
+	elseif ( $group['arrows'] == 'light_double' ) {
+$css .= 'a.pb_carousel_default_prev, a.pb_carousel_default_next {' . "\n";
+$css .= '	width: 35px;' . "\n";
+$css .= '	height: 35px;' . "\n";
+$css .= '	display: block;' . "\n";
+$css .= '	position: absolute;' . "\n";
+$css .= '	background: url( ' . $this->_pluginURL . '/layouts/carousel/default/double-arrows-white.png) no-repeat transparent;' . "\n";
+
+	if ( ( $group['direction'] == 'left' ) || ( $group['direction'] == 'right' ) ) {
+		$css .= '	top: ' . intval( $group['image_height']/2 -6) . 'px;' . "\n";
+	} else {
+		$css .= '	top: ' . intval( $group['image_height']*$group['items'] / 2) . 'px;' . "\n";
+	}
+$css .= '}';
+
+$css .= 'a.pb_carousel_default_prev {' . "\n";
+$css .= '	left: 10px;' . "\n";
+$css .= '	background-position: 0 0;' . "\n";
+$css .= '	opacity: 0.5;' . "\n";
+$css .= '	filter:alpha(opacity=50);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next {' . "\n";
+$css .= '	background-position: -35px 0;' . "\n";
+$css .= '	right: 10px;' . "\n";
+$css .= '	opacity: 0.5;' . "\n";
+$css .= '	filter:alpha(opacity=50);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+	}
+
+
+	elseif ( $group['arrows'] == 'light_lined' ) {
+$css .= 'a.pb_carousel_default_prev, a.pb_carousel_default_next {' . "\n";
+$css .= '	width: 35px;' . "\n";
+$css .= '	height: 35px;' . "\n";
+$css .= '	display: block;' . "\n";
+$css .= '	position: absolute;' . "\n";
+$css .= '	background: url( ' . $this->_pluginURL . '/layouts/carousel/default/single-arrow-white.png) no-repeat transparent;' . "\n";
+
+	if ( ( $group['direction'] == 'left' ) || ( $group['direction'] == 'right' ) ) {
+		$css .= '	top: ' . intval( $group['image_height']/2 -6) . 'px;' . "\n";
+	} else {
+		$css .= '	top: ' . intval( $group['image_height']*$group['items'] / 2) . 'px;' . "\n";
+	}
+$css .= '}';
+
+$css .= 'a.pb_carousel_default_prev {' . "\n";
+$css .= '	left: 10px;' . "\n";
+$css .= '	background-position: 0 0;' . "\n";
+$css .= '	opacity: 0.5;' . "\n";
+$css .= '	filter:alpha(opacity=50);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_prev:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next {' . "\n";
+$css .= '	background-position: -35px 0;' . "\n";
+$css .= '	right: 10px;' . "\n";
+$css .= '	opacity: 0.5;' . "\n";
+$css .= '	filter:alpha(opacity=50);' . "\n";
+$css .= '}' . "\n";
+
+$css .= 'a.pb_carousel_default_next:hover {' . "\n";
+$css .= '	opacity: 1;' . "\n";
+$css .= '	filter:alpha(opacity=100);' . "\n";
+$css .= '}' . "\n";
+	}
+}
+
+$css .= '.pb_carousel_default_pag a {' . "\n";
+$css .= '	background: url( ' . $this->_pluginURL . '/layouts/carousel/default/images.png) 0 -300px no-repeat transparent;' . "\n";
+$css .= '}' . "\n";
+
+$css .= '#pb_carousel-' . $this->instance_count . ' a {' . "\n";
+//$css .= '	width:' . $group['image_width'] . 'px;' . "\n";
+//$css .= '	height:' . $group['image_height'] . 'px;' . "\n";
+$css .= '	float: left;' . "\n";
+$css .= '	display: block;' . "\n";
+$css .= '}' . "\n";

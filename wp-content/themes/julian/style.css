@@ -1,0 +1,310 @@
+	/*
+ Theme Name:     Julian Child Theme
+ Theme URI:      http://limecuda.com
+ Description:    Child theme for the Julian Plastic Surgery
+ Author:         Blake Imeson
+ Author URI:     http://limecuda.com
+ Template:       canvas
+ Version:        0.4
+ */
+
+ @import url("../canvas/style.css");
+
+ #wrapper  {
+    	-moz-box-shadow:  0 2px 30px rgba(0,  0,  0,  0.4);
+    	-webkit-box-shadow:  0 2px 30px rgba(0,  0,  0,  0.4);
+    	box-shadow:  0 2px 30px rgba(0,  0,  0,  0.4);
+    	}
+/*------------Header----------------*/
+@media only screen and (max-width: 768px) {
+.royalSlider {
+	display:none;
+	}
+}
+@media only screen and (min-width: 768px)  {
+body #logo {
+    margin: 0 auto;
+    width: 441px;
+	float: none;
+	}
+	body #logo img:hover{
+		opacity:.7;
+		}
+/*------------Navigation----------------*/
+#top ul.nav { 
+	left: 34%; 
+	}
+#top {
+    margin: 0 auto;
+    width: 960px;
+	-moz-box-shadow:  0 2px 30px rgba(0,  0,  0,  0.4);
+    -webkit-box-shadow:  0 2px 30px rgba(0,  0,  0,  0.4);
+    box-shadow:  0 2px 30px rgba(0,  0,  0,  0.4);
+	}
+	#top ul.nav li {
+		padding:10px 0;
+		}
+ul.nav li a {
+    padding: 0.5em 0.4em;
+	line-height: 0.2em !important;
+	}
+	body ul.nav ul {
+		width:20em!important;
+		}
+		body ul.nav li#menu-item-70 ul,
+		body ul.nav li#menu-item-65 ul {
+			width:33em!important;
+			}
+	ul.nav ul li a {
+		font-size: 2em!important;
+		}
+ #top ul.nav li#menu-item-2090.current_page_item a {
+	background:none;
+	}
+#navigation { 
+		text-align:center;
+		}
+	ul#main-nav { 
+		float:none;
+		display:inline-block;
+		vertical-align:top;
+		}
+#navigation ul.nav > li#menu-item-62 {
+    border-right: 0;
+	}
+body #navigation ul.nav > li a:hover, body #navigation ul.nav > li:hover, body #navigation ul.nav li ul {
+	background-color:#CDE8BD!important;
+	}
+	#navigation .nav li.parent > a:after {
+		font-size: 0.47em;
+		line-height: 0.47em;
+		margin-top: 0;
+		}
+}
+ #breadcrumb  {
+        border-bottom:  1px solid #CCC;
+    	margin-bottom:  2px;
+    	}
+	 #breadcrumb a  {
+     		background:  url("images/arrow.gif") no-repeat scroll right center transparent;
+    		padding-right: 9px ;
+    		}
+ 	 #breadcrumb strong  {
+     		color: #6F6F6F;
+    		}
+#header .schedule-button  {
+	 float: right;
+    margin-bottom: -20px;
+    margin-top: 1em;
+	}
+/*------------------------Other--------------------------*/
+#topad  {
+        color:  #6F6F6F;
+        font:  bold 40px/1em Tangerine, Arial, serif;
+        margin:  8px 176px 8px 0;
+    	}
+body.page-id-2087 h1.title, /*hide page title on Current Specials page*/ 
+.page-id-243 .title,  .page-id-247 .title,  .page-id-470 .title, .page-id-489 .title,  .page-id-234 .title,   .page-id-241 .title,  .page-id-4 .title {
+    	display: none;
+    	}
+/*------------Content----------------*/
+.entry img,  img.thumbnail  {
+    	border: none;
+    	}
+.post .title,  .page .title  {
+        background:  url("/images/orchid.png") no-repeat scroll left center transparent;
+        border-bottom:  1px solid #CCC;
+        padding:  21px 0 12px 12px;
+    	}
+	.page .title  {
+    		font-size: 42px;
+    		}
+	.post .title,  .post .title a: link,  .post .title a:visited  {
+    		border-bottom: none;
+    		}
+.entry h2  {
+        margin:  0.8em 0 0.1em;
+    	}
+.entry ul  {
+        padding:  0 0 0 20px;
+    	}
+	.entry ul li  {
+    		list-style-type: none;
+    		background:  url("/images/bullet-green.png") no-repeat scroll 0 5px transparent;
+    		padding-left:  18px;
+    		}
+		.entry ul li li {
+    			list-style-type: none;
+    			background:  url("/images/bullet-yellow.png") no-repeat scroll 0 5px transparent;
+    			}
+.archive_header   {
+    	border: none;
+    	font-size:  50px;
+    	padding-top: 15px;
+    	}
+	.archive_header .catrss a  {
+    		font-size:  25px;
+    		line-height:  45px;
+    		}
+.woo-sc-quote.boxed  {
+        background:  #CDE8BD;
+        padding:  3px;
+    	}
+.woo-sc-hr,  .woo-sc-divider  {
+        display:  inline-block;
+        height:  10px;
+        width:  100%;
+    	}
+#gallery-1 img  {
+    	border: none;
+    	}
+.post-25  img.alignleft  {
+    	margin:  5px 0 15px 0;
+    	}
+.rsDefaultInv, .rsDefaultInv .rsOverflow, .rsDefaultInv .rsSlide, .rsDefaultInv .rsVideoFrameHolder, .rsDefaultInv .rsThumbs {
+	background:none;
+	}
+	.royalSlider h3 {
+		font: 60px/1.5em 'Tangerine',arial,sans-serif;
+		}
+		.royalSlider h3.white {
+			color:#fff;
+			}
+	.royalSlider h4 {
+		font: 42px/1.5em 'Tangerine',arial,sans-serif;
+		}
+		.royalSlider h4.white {
+			color:#fff;
+			}
+		.royalSlider  img.rsImg {
+			padding:0;
+			}
+/*------------Sidebar----------------*/
+.widget  {
+    	padding:  6px;
+    	}
+	.widget h3  {
+			text-transform:  none;
+			padding: 0;
+			}
+	.widget#text-3  {
+			margin-top: 21px;
+			}
+	.widget#woo_twitter-3  {
+			border: none;
+			}
+	.widget#text-4,  .widget#woo_search-3, .widget#text-5,  .widget#ithemesrotatingimages-3  {
+			border: none;
+			padding: 0;
+			}
+	#sidebar #text-6 .textwidget h3  {
+			border:  0 none;
+			color:  #8FCC6B;
+			font:  bold 34px/1.5em Tangerine, Arial, serif;
+			margin:  0;
+			text-align:  center;
+			text-decoration:  underline;
+			}
+/*------------Footer----------------*/
+/*------------Forms----------------*/
+#gform_wrapper_1 ul li,  
+#gform_wrapper_2 ul li   {
+    background: none;
+	}
+#gform_wrapper_1 ul.gfield_checkbox li,  
+#gform_wrapper_1 .gform_wrapper ul.gfield_radio li  {
+        float:  left;
+        margin-left:  20px;
+     	}
+.gform_wrapper ul#input_1_7, 
+.gform_wrapper ul#input_1_7 li  {
+        margin-left:  0 !important;
+    	}
+body .gform_wrapper .top_label li.gfield.gf_left_half {
+    width: 46%;
+	}
+body .gform_wrapper .top_label li.gfield.gf_right_half {
+    width: 46%;
+	}
+body .ui-datepicker-trigger {
+    vertical-align: middle;
+	}
+/*------------Misc----------------*/
+.quote-page  {
+        background:  #FFFBD1 url("functions/images/quote.png") no-repeat scroll 10px 10px;
+        margin:  1em 20px;
+        min-height:  32px;
+    	padding:  6px 6px 6px 55px;
+    	-moz-border-radius:  6px;
+      	-webkit-border-radius: 6px;
+      	border-radius:  6px;
+      	}
+.fbConnectWidgetTopmost  {
+        border:  none;
+    	border-style:  none;
+    	}
+.nocomments  {
+    	display: none;
+    	}
+/*------------------Weight Loss-----------------*/
+body.page-template-template-weight-loss-php #inner-wrapper {
+    background-color: #ccd958;
+	}
+body.page-template-template-weight-loss-php {
+    background-color: #6ef6f6;
+	}
+body.page-template-template-weight-loss-php h1.title,
+body.page-template-template-weight-loss-php #footer-widgets,
+body.page-template-template-weight-loss-php #navigation,
+body.page-template-template-weight-loss-php #header {
+	display:none!important;
+	}
+.menu-weight-loss-container {
+    margin: 0 auto;
+    width: 457px;
+	}
+body.page-template-template-weight-loss-php .entry ul {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 20	px;
+    font-weight: bold;
+    padding: 10px 0 10px 20px;
+	}
+	body.page-template-template-weight-loss-php .entry ul li {
+		padding-bottom:0.4em;
+		}
+ul#menu-weight-loss {
+    margin-bottom: 1.2em;
+	}
+	ul#menu-weight-loss li {
+		display: inline;
+		padding: 0 2em;
+		}
+		ul#menu-weight-loss li a {
+			color: #CE195E;
+			font-family: tangerine;
+			font-size: 3em;
+			font-weight: 800;
+			}
+/**
+ * Before & After
+ *
+ * Changes 8/25/2014
+ */
+.before-after-section {
+	float: left;
+	margin-bottom: 40px;
+	width: 100%;
+	}
+	.before-after-section h2 {
+		margin-bottom: -25px;
+		}
+	.before-after-section img {
+		margin-bottom: 0;
+		margin-top: 25px;
+		}
+.service-procedures a {
+	font: normal 40px/1.2em 'Tangerine', arial, sans-serif;
+	line-height: 2em;
+	margin: 0 0 0 30px;
+	}
